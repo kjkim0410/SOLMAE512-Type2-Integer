@@ -1,0 +1,47 @@
+{
+  "python": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "trials": [
+    100,
+    1000
+  ],
+  "warmup": 3,
+  "message_bytes": 512,
+  "seed": "SOLMAE-v5-campaign-2026",
+  "keygen_ms": 2591.7404999490827,
+  "derive_ms": {
+    "v4": 388.68400000501424,
+    "v5": 132.7921999618411
+  },
+  "numerical_keys_equal": true,
+  "source_sha256": {
+    "solmae-fxp-integer\\fft_fxp.py": "569e5e0f71e25725339fdb9fce5e623e593811c2cc3db738dc7607b14d6080e0",
+    "solmae-fxp-integer\\fxp.py": "4f6afb0fc71524dbf2e50c022fa0f2e158a8f97e81221e6e6fddfe8cc5a9eefc",
+    "solmae-fxp-integer\\fxp_complex.py": "546da276cd41a15c3513ec8f0bd6b8b6a161eb2890651aff359d86bcc688267c",
+    "solmae-fxp-integer\\fxp_formats.py": "ec1d6f1cf78700fdafde429767c55d4aea567fa133fa97e56fb1b2e48c639aa6",
+    "solmae-fxp-integer\\fxp_math.py": "18ce4a18960d532151586785d2ac6d9ea098f05fcc09912a5524eb54e38b2792",
+    "solmae-fxp-integer\\h_sampler_fxp.py": "e5d255912aab40786f93d6bf1f54fa526abc1d0b19a734227afd1bf512c77c54",
+    "solmae-fxp-integer\\N_sampler_fxp.py": "d919ed1019c3fab1c493cebd5e5039ee3968a65bca92c00ac895a12ae6dd2d02",
+    "solmae-fxp-integer\\PeikertSampler_fxp.py": "f971d4b9a7a50e7e72b5081cdb8bdfc21155d929488f30bef64c2fb3802cba48",
+    "solmae-fxp-integer\\s_keygen_fxp.py": "bfdb8fffd309fc5c680cac4fbe8baf274124b482523b130f0a024ee8c0be1bc9",
+    "solmae-fxp-integer\\solmae_fxp.py": "b02b39c27b6a4685d6b04e01d9c8295f98602363eac0ca313915879fb4db8d8b",
+    "solmae-fxp-integer\\test_fxp_core.py": "871fd1141ca8c2fee9dcd27fc19713d8a379fd932c2460756756fcb04078db49",
+    "solmae-fxp-integer\\test_fxp_solmae512.py": "2640943de6b4434783b80de549f6ec5c75d6a6881fe957bcb5b0a73400506af8",
+    "solmae-full-integer\\fft_fxp_strict.py": "df75e835736b8fa37352e83af2cdff6e28f24a9e6117084868f3ee3ed641ee2f",
+    "solmae-full-integer\\fft_roots_fxp_constants.py": "273486d32be081a381f1ed71b5f6c8cc58db410486ebcf8e5d6e55e3fd355e40",
+    "solmae-full-integer\\fxp.py": "786eaecb9bdb87434a292dc191916b5f4ccca6f6f29d474045ae744d95a6c5eb",
+    "solmae-full-integer\\fxp_complex.py": "56de2bd7c3d33482b78f813ac1b6569913ab87475f26cd48eb62a291920c1d24",
+    "solmae-full-integer\\fxp_formats.py": "ec1d6f1cf78700fdafde429767c55d4aea567fa133fa97e56fb1b2e48c639aa6",
+    "solmae-full-integer\\fxp_math_strict.py": "dedfa7bfc52bc5751a5e608ac1b1f81dd12897489d6eba19ca809e726c3c96c0",
+    "solmae-full-integer\\h_sampler_fxp_strict.py": "0e38ff18a24d104403cd742450415b79cf68596e1b09138a0ed9457ba83f2873",
+    "solmae-full-integer\\N_sampler_fxp_strict.py": "9faf131dd683d904e42cc9610ccc2d6405dd7b45a55add613281ba025062edb2",
+    "solmae-full-integer\\PeikertSampler_fxp_strict.py": "fa66f08f2f4b4a140617ffd13b1dd662842417922ef11bc280175c098b812bce",
+    "solmae-full-integer\\s_keygen_fxp_strict.py": "0bb732b0b9ee5c1148ffa1ba97d9cf0a2d31034fcd31339a02cd8ee5d8132c59",
+    "solmae-full-integer\\samplerz_fxp_strict.py": "9d9e1c783e8294a151b2009b689a17df2154d960028ee41d1d3238783f567b5f",
+    "solmae-full-integer\\solmae_fxp_strict.py": "bb25cf3a58d156ed339182b948c5153023bf9c50567e7950b4cd34f1d556bbeb",
+    "solmae-full-integer\\test_fxp_strict_solmae512.py": "7a8897e3e0d7e050623ce5fb0ff522582453192ea6c4b09fbbdcfd279f6c4576"
+  },
+  "basis_sha256": "72b9d556f293cf639c05be3e1ddda8b108b444fdf953a85656557749a116cb43",
+  "note": "Single shared key; deterministic test randomness; sign timing excludes verification. Keygen uses OS randomness."
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "machine": "AMD64",
+  "cpu_count": 8,
+  "trials": 1000,
+  "message_bytes": 512,
+  "seed": "SOLMAE-three-implementations-2026",
+  "time_unit": "ms",
+  "keygen_definition": "reference keypair generation plus v4/v5 signing-key conversion",
+  "note": "Each implementation uses its own keypair per trial. The same message and salt are used. Sampler randomness is not forced equal; signatures need not match. OS randomness is used for key generation and sampler calls."
+}
